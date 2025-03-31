@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre la NBA</title>
+    <!-- Enlace a Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header class="bg-danger text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-3">Todo sobre la NBA</h1>
+            <p class="lead">Conoce la liga más emocionante de baloncesto del mundo</p>
+        </div>
+    </header>
+
+    <!-- Sección Principal -->
+    <main class="container my-5">
+        
+        <!-- Fila 1: Imagen e Historia -->
+        <div class="row mb-5 align-items-top">
+            <!-- Columna de Imagen Reducida -->
+            <div class="col-md-4 text-center">
+                <img src="https://cdn.worldvectorlogo.com/logos/nba-6.svg" 
+                     alt="Evolución NBA" 
+                     class="img-fluid rounded mx-auto d-block">
+            </div>
+            
+            <!-- Columna de Historia en Párrafos -->
+            <div class="col-md-8">
+                <div class="bg-danger-subtle p-4 rounded shadow">
+                    <h2 class="text-danger mb-3">Historia Completa</h2>
+                    <div class="text-justify fs-6">
+                        
+                        <div class="timeline-item">
+                            <p><strong class="text-danger">Orígenes (1946-1949):</strong><br>
+                            La NBA nació como BAA (Basketball Association of America) en 1946 con 11 equipos. El primer partido oficial fue entre New York Knicks y Toronto Huskies el 1 de noviembre de 1946. En 1949 se fusionó con la NBL (National Basketball League) para formar la NBA moderna. Los Philadelphia Warriors ganaron el primer campeonato de la BAA en 1947, derrotando a Chicago Stags.</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <p><strong class="text-primary">Era de Expansión (1950-1975):</strong><br>
+                            En 1950 se integraron los primeros jugadores afroamericanos como Chuck Cooper y Earl Lloyd. Se introdujo el reloj de 24 segundos en 1954 para agilizar el juego. La década de 1960 vio el dominio de Boston Celtics con Bill Russell ganando 11 campeonatos. Los Lakers se trasladaron de Minneapolis a Los Ángeles en 1960, mientras que los Warriors se mudaron de Philadelphia a San Francisco en 1962. Wilt Chamberlain marcó un hito al anotar 100 puntos en un solo partido en 1962, un récord que sigue vigente.</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <p><strong class="text-danger-emphasis">Fusión con la ABA (1976):</strong><br>
+                            La NBA absorbió 4 equipos de la ABA (Denver Nuggets, Indiana Pacers, New York Nets y San Antonio Spurs), incorporando elementos innovadores como el concurso de clavadas y el balón tricolor. La rivalidad entre las dos ligas fue intensa durante años, con jugadores saltando de una liga a otra por mejores contratos. Julius Erving (Dr. J) fue una de las estrellas más importantes que llegó a la NBA desde la ABA, revolucionando el juego con su estilo aéreo.</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <p><strong class="text-primary-emphasis">Era de Bird y Magic (1979-1991):</strong><br>
+                            La histórica rivalidad entre Larry Bird (Celtics) y Magic Johnson (Lakers) revitalizó el interés en la NBA durante los años 80. Los dos se enfrentaron en las Finales en tres ocasiones (1984, 1985 y 1987), con los Lakers ganando dos de esos enfrentamientos. Esta era consolidó a los Celtics y Lakers como las franquicias más icónicas de la liga, mientras que el formato de los playoffs se expandió para incluir a 16 equipos.</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <p><strong class="text-danger">Dinastía de Jordan (1991-1998):</strong><br>
+                            Michael Jordan lideró a los Chicago Bulls hacia seis campeonatos en dos "three-peats" (1991-1993 y 1996-1998), revolucionando el marketing deportivo y convirtiendo la NBA en un fenómeno global. Durante este período, la NBA se expandió a Canadá con Toronto Raptors y Vancouver Grizzlies (posteriormente trasladados a Memphis). El Dream Team de 1992 en los Juegos Olímpicos de Barcelona presentó al mundo el talento de la NBA.</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <p><strong class="text-primary">Era Moderna (1999-Actualidad):</strong><br>
+                            Tras Jordan, nuevas estrellas como Kobe Bryant, Tim Duncan y LeBron James han dejado su marca. Los San Antonio Spurs establecieron una dinastía duradera bajo el entrenador Gregg Popovich. La globalización ha traído más jugadores internacionales, como Dirk Nowitzki, Yao Ming, Pau Gasol y Giannis Antetokounmpo. Los Golden State Warriors dominaron gran parte de la década de 2010 con su estilo de juego revolucionario basado en el tiro de tres puntos. Actualmente la liga tiene 30 equipos, genera más de $10 mil millones anuales y se transmite en 215 países, mientras continúa expandiendo su influencia global a través de iniciativas como la NBA Africa y los juegos internacionales regulares.</p>
+                        </div>
+                    </div>
+                    <a href="https://www.nba.com/history" 
+                       target="_blank" 
+                       class="btn btn-danger mt-3">
+                        Más detalles históricos
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila 2: Información y equipos -->
+        <div class="row mb-5">
+            <div class="col-12 col-lg-6">
+                <div class="bg-primary-subtle p-4 rounded shadow">
+                    <h2 class="text-primary mb-3">Información Básica</h2>
+                    <p>La <strong>NBA</strong> (National Basketball Association) es la principal liga de baloncesto profesional del mundo. Actualmente cuenta con 30 equipos y con partidos casi a diario.</p>
+                    <p>Para más información oficial, visita el 
+                        <a href="https://www.nba.com" 
+                           target="_blank" 
+                           class="text-primary fw-bold">
+                            sitio web de la NBA
+                        </a>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Lista de equipos mejorada -->
+            <div class="col-12 col-lg-6">
+                <div class="bg-danger p-4 rounded shadow text-white">
+                    <h2 class="mb-3">Equipos Destacados</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-danger-subtle text-danger">
+                            Los Angeles Lakers
+                            <span class="badge bg-primary rounded-pill">17 campeonatos</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-primary-subtle text-primary">
+                            Boston Celtics
+                            <span class="badge bg-danger rounded-pill">18 campeonatos</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-danger-subtle text-danger">
+                            Chicago Bulls
+                            <span class="badge bg-primary rounded-pill">6 campeonatos</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-primary-subtle text-primary">
+                            Golden State Warriors
+                            <span class="badge bg-danger rounded-pill">7 campeonatos</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-danger-subtle text-danger">
+                            Miami Heat
+                            <span class="badge bg-primary rounded-pill">3 campeonatos</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nueva Fila: Reglas y Jugadores -->
+        <div class="row mb-5">
+            <!-- Columna de Reglas -->
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <div class="bg-primary p-4 rounded shadow text-white">
+                    <h3 class="mb-3">Reglas Principales</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3 bg-primary-subtle text-primary p-2 rounded">
+                            <strong>Duración del partido:</strong> 
+                            4 cuartos de 12 minutos cada uno
+                        </li>
+                        <li class="mb-3 bg-danger-subtle text-danger p-2 rounded">
+                            <strong>Shot clock:</strong> 
+                            24 segundos para realizar un lanzamiento
+                        </li>
+                        <li class="mb-3 bg-primary-subtle text-primary p-2 rounded">
+                            <strong>Faltas:</strong> 
+                            5 faltas por jugador = expulsión del partido
+                        </li>
+                        <li class="mb-3 bg-danger-subtle text-danger p-2 rounded">
+                            <strong>Pasos:</strong> 
+                            Máximo 2 pasos sin botar el balón
+                        </li>
+                        <li class="bg-primary-subtle text-primary p-2 rounded">
+                            <strong>Tiros libres:</strong> 
+                            1 punto por tiro convertido
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Columna de Jugadores -->
+            <div class="col-12 col-lg-6">
+                <div class="bg-danger-emphasis p-4 rounded shadow text-white">
+                    <h3 class="text-white mb-3">Jugadores Legendarios</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-danger text-white">
+                            Michael Jordan
+                            <span class="badge bg-primary rounded-pill">6 veces campeón y 5 veces MVP</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-primary text-white">
+                            LeBron James
+                            <span class="badge bg-danger rounded-pill">4 veces campeón y 4 veces  MVP</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-danger text-white">
+                            Kobe Bryant
+                            <span class="badge bg-primary rounded-pill">5 veces campeón y una vez MVP</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-primary text-white">
+                            Magic Johnson
+                            <span class="badge bg-danger rounded-pill"> 5 veces campeón y 3 veces MVP</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-danger text-white">
+                            Shaquille O'Neal
+                            <span class="badge bg-primary rounded-pill">4 veces campeón y una vez MVP</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario de suscripción -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="card bg-primary-subtle border-primary">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="card-title mb-0 text-center">¡Suscríbete para más información!</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label text-primary">Nombre:</label>
+                                <input type="text" 
+                                       class="form-control border-primary" 
+                                       placeholder="Tu nombre completo" 
+                                       required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label text-primary">Email:</label>
+                                <input type="email" 
+                                       class="form-control border-primary" 
+                                       placeholder="tucorreo@ejemplo.com" 
+                                       required>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button type="submit" class="btn btn-primary w-50 me-1">
+                                    Suscribirme
+                                </button>
+                                <button type="reset" class="btn btn-outline-danger w-50 ms-1">
+                                    Cancelar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
